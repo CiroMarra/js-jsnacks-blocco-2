@@ -21,8 +21,7 @@ for (let i=0; i < numbers.length; i++ ) {
 }
 console.log(even);
 console.log(odd);
-// pari.innerHTML = even.join(" ");
-// dispari.innerHTML = odd.join(" ");
+
 
 document.getElementById('pari').innerHTML = even.join (" ")
 document.getElementById('dispari').innerHTML = odd.join (" ")
