@@ -3,10 +3,10 @@
 // Partendo da un array di numeri, stampiamo nell’id rosso i numeri dispari e in verde i numeri pari.
 
 let pari = document.getElementById('pari');
-    pari.classList.add('red');
+    pari.classList.add('green');
 
 let dispari = document.getElementById('dispari');
-    dispari.classList.add('green');    
+    dispari.classList.add('red');    
 
 const numbers = [1,2,3,4,5,6,7,8,9,10];
 const even = [];
